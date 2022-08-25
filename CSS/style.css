@@ -1,0 +1,116 @@
+*{
+    background-color: rgb(105, 105, 105);
+}
+
+.tituloPagina{
+    font-family: verdana, sans-serif;
+    color: #910000;
+    font-weight: bold;
+}
+
+.menu_ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    margin-left: -40px;
+    
+}
+
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.788);
+    border: 1px solid black;
+    padding: 10px;
+    font-family: verdana, sans-serif;    
+    font-weight: bold;
+}
+
+.menu:focus{
+    color: orangered;
+}
+
+.tituloNoticia{
+    font-family: verdana, sans-serif;
+    border: 5px solid antiquewhite;
+    text-align: center;
+}
+
+#tituloDestaque{
+    border: 1px solid black;
+    background-color: #910000;
+    margin-top: 1px;
+    padding-bottom: 7px;
+}
+
+.imagemNoticia{
+    width: 60%;
+    height: 100%;
+    margin-top: -15px;
+    
+}
+
+.textoPrincipal{
+    text-align: center;
+    font-weight: bold;
+    background-color: #910000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#outrasNoticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.campeonatos{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.outras_imagem{
+    width: 20%;
+    height: 20%;
+}
+
+.outras_text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.descricao{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #176e0181;
+    padding-top: 34px;
+    margin-left: 5%;
+
+}
+
+#imagemSobre{
+    width: 30%;
+    height: 100%;
+    border-radius: 25px;
+    margin-top: -15px;
+}
+
+#FimPaginaAutor{
+    margin-top: 15%;
+}
+
+#OpsImagem{
+    width: 60%;
+    height: 100%;
+}
+
+.MercadoTranferencias{
+    margin-left: 20%;
+    width: 63%;
+    height: 100%;
+    padding-top: 0.2%;
+}
